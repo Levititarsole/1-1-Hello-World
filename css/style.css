@@ -155,13 +155,24 @@ a {
   overflow: hidden;
 }
 
-.painterholder section h2{ 
-position: absolute;
-bottom: 10px;
-left: 10px;
-width: 50%;
-font-size: 3rem;
+.painterholder .extra h2:hover span {
+  display: none
 }
+
+.painterholder .extra h2:hover:before {
+  content: "Comming soon!";
+  z-index: 100;
+}
+
+.painterholder section h2{ 
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 50%;
+  font-size: 3rem;
+  }
+
+
 
 .painterholder section img {
   object-fit: cover;
