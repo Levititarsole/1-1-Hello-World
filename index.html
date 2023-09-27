@@ -15,6 +15,41 @@
 <!-- Deze website is gemaakt door Levi Titarsole -->
 
 <body>
+
+    <nav>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content main-font">
+          <a href="index.html">
+            <li> 
+             <span>Home</span>
+             <span class="small-number">01</span>
+            </li>
+          </a>
+          <a href="vangogh.html">
+            <li> 
+                <span>van Gogh</span>
+                <span class="small-number number-left">02</span>
+               </li>
+          </a>
+          <a href="#">
+            <li> 
+                <span>Museum</span>
+                <span class="small-number">03</span>
+               </li>
+          </a>
+          <a href="museum.html">
+            <li> 
+                <span>Contact</span>
+                <span class="small-number number-left">04</span>
+               </li>
+          </a>
+        </div>
+      </div>
+    
+      <span class="openbtn" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+    </nav>
+
     <header class="hoofd">
         <div class="container">
             <div class="header-center-holder main-font">
@@ -78,9 +113,15 @@
 
 
     </main>
-
-
-
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
 </body>
 
 </html>

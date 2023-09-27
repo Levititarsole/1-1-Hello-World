@@ -14,6 +14,40 @@
 
 <body>
 
+    <nav>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content main-font">
+              <a href="index.html">
+                <li> 
+                 <span>Home</span>
+                 <span class="small-number">01</span>
+                </li>
+              </a>
+              <a href="vangogh.html">
+                <li> 
+                    <span>van Gogh</span>
+                    <span class="small-number number-left">02</span>
+                   </li>
+              </a>
+              <a href="museum.html">
+                <li> 
+                    <span>Museum</span>
+                    <span class="small-number">03</span>
+                   </li>
+              </a>
+              <a href="#">
+                <li> 
+                    <span>Contact</span>
+                    <span class="small-number number-left">04</span>
+                   </li>
+              </a>
+            </div>
+          </div>
+        
+          <span class="openbtn" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        </nav>
+
     <header> 
         <section class="side-header main-font">
             <h2>Vincent</h2>
@@ -33,7 +67,7 @@
                 <p>Vincent van Gogh's childhood was marked by a deep love for art. Born in 1853 in the Netherlands, he showed an early passion for drawing and nature, foreshadowing his future as a renowned artist. Despite financial struggles, his supportive family nurtured his artistic talent.</p> 
                 <p>Vincent van Gogh's childhood was marked by a deep love for art. Born in 1853 in the Netherlands, he showed an early passion for </p>
             </div>
-            <div class="imgholder"> <img src="./img/header-img.jpg" alt=""> </div>
+            <div class="imgholder"> <img src="./img/Bloesem.jpg" alt=""> </div>
         </section>
 
         <section class="double-alineahold paddingtopper"> 
@@ -88,6 +122,15 @@
         </section>
     </main>
 
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
 
 </body>
 </html>

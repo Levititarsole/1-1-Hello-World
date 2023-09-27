@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>De titel</title>
+    <meta name="description" content="eindopdracht internetstandaarden">
+    <meta name="keywords" content="Mijn website">
+    <meta name="Levi Titarsole" content="Levi Titatsole">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body> 
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content main-font">
+          <a href="#">
+            <li> 
+             <span>Home</span>
+             <span class="small-number">01</span>
+            </li>
+          </a>
+          <a href="#">
+            <li> 
+                <span>Van gogh</span>
+                <span class="small-number number-left">02</span>
+               </li>
+          </a>
+          <a href="#">
+            <li> 
+                <span>Museum</span>
+                <span class="small-number">03</span>
+               </li>
+          </a>
+          <a href="#">
+            <li> 
+                <span>Contact</span>
+                <span class="small-number number-left">04</span>
+               </li>
+          </a>
+        </div>
+      </div>
+    
+      <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+
+</body>
+</html>

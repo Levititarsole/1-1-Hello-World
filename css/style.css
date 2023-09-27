@@ -391,3 +391,82 @@ max-width: 20vw;
   width: 30%;
   font-size: 1rem;
 }
+
+.table-holder:hover {
+  -webkit-box-shadow: 0px -1px 22px -8px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px -1px 22px -8px rgba(0,0,0,0.43);
+  box-shadow: 0px -1px 22px -8px rgba(0,0,0,0.43);
+}
+
+
+/* navbar */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background-color: var(--main-bg-color);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  width: 80vw;
+  text-align: center;
+  margin: 4vh 10vw ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 10vw;
+  color: #37383A;
+  display: block;
+  transition: 0.3s;
+  line-height: 12vw;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: var(--main-cta-color);
+}
+
+.openbtn {
+  position: fixed;
+  z-index: 100;
+  top: 2vw;
+  right: 2vw;
+  background-color: #F1EFE9;
+  font-size: 2.5rem;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  right: 45px;
+  font-size: 60px;
+
+}
+
+.small-number {
+  position: absolute;
+  font-size: 2rem;
+  font-family: var(--italic-font);
+  top: -8vh;
+}
+
+.number-left {
+  left: -4vw;
+}
+
+.overlay-content li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+
