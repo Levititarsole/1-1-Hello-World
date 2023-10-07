@@ -9,25 +9,26 @@
     --regular-font: Founders;
     --bold-font: Founders-bold;
   }
+  
 
   @font-face {
     font-family: Ogg;
-    src: url(/assets/Ogg-Roman.otf);
+    src: url(../fonts/Ogg-Roman.otf);
   }
 
   @font-face {
     font-family: OggItalic;
-    src: url(/assets/Ogg-Italic.otf);
+    src: url(../fonts/Ogg-Italic.otf);
   }
 
   @font-face {
     font-family: Founders;
-    src: url(/assets/FoundersGrotesk-Regular.otf);
+    src: url(../fonts/FoundersGrotesk-Regular.otf);
   }
 
   @font-face {
     font-family: Founders-bold;
-    src: url(/assets/FoundersGrotesk-Bold.otf);
+    src: url(../fonts/FoundersGrotesk-Bold.otf);
   }
 
 *{
