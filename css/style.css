@@ -13,22 +13,22 @@
 
   @font-face {
     font-family: Ogg;
-    src: url(/Ogg-Roman.otf);
+    src: url(../fonts/Ogg-Roman.otf);
   }
 
   @font-face {
     font-family: OggItalic;
-    src: url(/Ogg-Italic.otf);
+    src: url(../fonts/Ogg-Italic.otf);
   }
 
   @font-face {
     font-family: Founders;
-    src: url(FoundersGrotesk-Regular.otf);
+    src: url(../fonts/FoundersGrotesk-Regular.otf);
   }
 
   @font-face {
     font-family: Founders-bold;
-    src: url(FoundersGrotesk-Bold.otf);
+    src: url(../fonts/FoundersGrotesk-Bold.otf);
   }
 
 *{
